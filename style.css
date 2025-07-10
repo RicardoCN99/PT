@@ -104,6 +104,12 @@
             100% { opacity: 0; }
         }
 
+          @media (max-width: 600px) {
+            .img_p1, .img_p2 {
+            display: none;
+            }
+         }
+
         .resultados {
             margin-top: 5px;
             padding: 40px 20px;
