@@ -108,9 +108,7 @@
         }
 
         .bootylab_shape{
-          margin-left: 30px;
           text-align: right;
-          padding-right: 30px;
           flex: 0 0 60%;
         }
 
@@ -147,6 +145,21 @@
           text-align: left;
           flex: 0 0 60%;
         }
+
+           @media (max-width: 600px) {
+            .bootylab_shape , .bootylab_sculpt {
+                text-align: center;
+            }
+            
+            .bootylab_sculpt_in{
+                flex-wrap: wrap-reverse;
+            }
+
+              .bootylab_shape_in {
+                flex-wrap: wrap;
+            }
+
+         }
 
         .comprar{
             width: fit-content;
@@ -267,11 +280,7 @@
             100% { opacity: 0; }
         }
 
-          @media (max-width: 600px) {
-            .img_p1, .img_p2 {
-            display: none;
-            }
-         }
+        
 
         .resultados {
             margin-top: 5px;
